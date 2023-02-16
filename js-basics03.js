@@ -49,6 +49,25 @@ function isOdd(a){
     }
 }
 
+function pascal(totalRows){
+    var row;
+    let col=[];
+    let prevCol = []; 
+    for(row=1; row<=totalRows; row++){
+        for(i=0; i<row; i++){
+            if(i==0 || i==row-1){
+                col[i]=1;
+            }
+            else{
+                col[i]=prevCol[i]+prevCol[i-1];
+            }
+        }
+        console.log('Row'+i+': '+col);
+        prevCol=col;
+        col = [];
+    }
+}
+
 console.log(addNumbers(15,20))
 
 fibbanocci(10);
@@ -58,3 +77,5 @@ areaOfTriangle(10,15);
 palindrome('rottor')
 
 isOdd(24)
+
+pascal(7);
