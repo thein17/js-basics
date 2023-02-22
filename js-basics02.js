@@ -1,7 +1,7 @@
 let names = []
 //console.log(names);
 names = ['Thein','Kavin','Prem','Rea','Meck'];
-console.log(names);
+//console.log(names);
 //console.log(names[0])
 //console.log(names.indexOf('Meck'));
 

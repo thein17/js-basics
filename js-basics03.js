@@ -68,9 +68,9 @@ function pascal(totalRows){
     }
 }
 
-console.log(addNumbers(15,20))
+//console.log(addNumbers(15,20))
 
-fibbanocci(10);
+//fibbanocci(10);
 
 areaOfTriangle(10,15);
 
