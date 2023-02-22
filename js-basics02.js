@@ -1,7 +1,7 @@
 let names = []
 //console.log(names);
 names = ['Thein','Kavin','Prem','Rea','Meck'];
-//console.log(names);
+console.log(names);
 //console.log(names[0])
 //console.log(names.indexOf('Meck'));
 
@@ -25,4 +25,4 @@ arr2[6]=1;
 console.log(arr2);
 arr1=arr2
 console.log('Arr1: '+arr1);
-//console.log(student.address);
+console.log(student.address);
