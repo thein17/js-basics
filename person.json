@@ -1,0 +1,16 @@
+
+{
+    "name": "thein",
+    "email":"thein.prem@gmail.com",
+    "address":{
+        "street name": "11456 Oakhampton Way",
+        "city": "Matthews",
+        "state": "NC",
+        "zip": 28105
+    },
+    "interests": [
+        "travel",
+        "books",
+        "food"
+    ] 
+}
